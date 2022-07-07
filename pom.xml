@@ -43,9 +43,9 @@
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <version>3.6</version>
-        <reporting>
+<!--         <reporting> -->
           <plugins>
-<!--            <configuration> -->
+           <configuration>
             <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
             </plugin>
@@ -75,10 +75,10 @@
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>taglist-maven-plugin</artifactId>
             </plugin>
-<!--           </configuration> -->
+          </configuration>
         </plugins>
-       </reporting>
-      </plugin>
+<!--        </reporting> -->
+<!--       </plugin> -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
